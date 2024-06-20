@@ -1,0 +1,42 @@
+.brandIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.herrgttli {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  color: inherit;
+}
+.appbar,
+.herrgttliWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.herrgttliWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 11px 0 0;
+}
+.appbar {
+  width: 360px;
+  background-color: #e1e430;
+  border-bottom: 3px solid var(--color-black);
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 5px 16px 1px;
+  gap: 16px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-black);
+  font-family: var(--font-jockey-one);
+}
