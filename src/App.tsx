@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import undefined from "./";
+import SellingPoint from "./components/SellingPoint";
 
 function App() {
   const action = useNavigationType();
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<undefined />} />
+      <Route path="/" element={<SellingPoint />} />
     </Routes>
   );
 }

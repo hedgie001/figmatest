@@ -1,0 +1,48 @@
+.icon {
+  height: 172px;
+  width: 172px;
+  position: relative;
+}
+.uSPItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-50xl);
+}
+.morbiFringillaConvallis,
+.title {
+  align-self: stretch;
+  position: relative;
+}
+.morbiFringillaConvallis {
+  height: 104px;
+  line-height: 32px;
+  font-family: var(--body);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.sellingpoint {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 310px;
+  text-align: center;
+  font-size: var(--body-size);
+  color: var(--color-black);
+  font-family: var(--title);
+}
+@media screen and (max-width: 450px) {
+  .morbiFringillaConvallis,
+  .title {
+    font-size: var(--font-size-lgi);
+  }
+  .morbiFringillaConvallis {
+    line-height: 26px;
+  }
+}
