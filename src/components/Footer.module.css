@@ -1,0 +1,55 @@
+.herrgttliGetrnkeAg,
+.technoiparkstrasse2,
+.winterthur {
+  margin: 0;
+}
+.herrgttliGetrnkeAgContainer {
+  flex: 1;
+  position: relative;
+  font-size: var(--body-size);
+  font-family: var(--body);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 169px;
+  max-width: 100%;
+}
+.facebook,
+.instagram,
+.linkedin {
+  margin: 0;
+}
+.facebookInstagramLinkedinContainer {
+  text-decoration: none;
+  width: 162px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.footer {
+  width: 1266px;
+  background-color: var(--dark);
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-13xl) 134px;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  font-size: var(--body-size);
+  color: var(--color-white);
+  font-family: var(--body);
+}
+@media screen and (max-width: 450px) {
+  .facebookInstagramLinkedinContainer,
+  .herrgttliGetrnkeAgContainer {
+    font-size: var(--font-size-lgi);
+  }
+}
