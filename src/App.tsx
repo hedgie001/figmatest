@@ -8,6 +8,7 @@ import {
 import SellingPoint from "./components/SellingPoint";
 import Home from "./components/Home";
 import Appbar from "./components/Appbar";
+import Footer from "./components/Footer";
 
 function App() {
   const action = useNavigationType();
@@ -51,6 +52,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
     </Routes>
+    <Footer/>
     </>
   );
 }

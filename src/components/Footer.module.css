@@ -28,7 +28,7 @@
   flex-shrink: 0;
 }
 .footer {
-  width: 1266px;
+  width: 100%;
   background-color: var(--dark);
   max-width: 100%;
   overflow: hidden;
