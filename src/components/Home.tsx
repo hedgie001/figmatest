@@ -9,17 +9,6 @@ export type HomeType = {
 const Home: FunctionComponent<HomeType> = ({ className = "" }) => {
   return (
     <div className={[styles.home, className].join(" ")}>
-      <header className={styles.appbar}>
-        <img
-          className={styles.brandIcon}
-          loading="lazy"
-          alt=""
-          src="/brand1@2x.png"
-        />
-        <div className={styles.appName}>
-          <a className={styles.herrgttli}>Herrgöttli</a>
-        </div>
-      </header>
       <main className={styles.main}>
         <section className={styles.content}>
           <div className={styles.inputSearchParent}>

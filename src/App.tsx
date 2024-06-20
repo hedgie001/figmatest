@@ -6,6 +6,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import SellingPoint from "./components/SellingPoint";
+import Home from "./components/Home";
+import Appbar from "./components/Appbar";
 
 function App() {
   const action = useNavigationType();
@@ -44,9 +46,12 @@ function App() {
   }, [pathname]);
 
   return (
+    <>
+    <Appbar/>
     <Routes>
-      <Route path="/" element={<SellingPoint />} />
+      <Route path="/" element={<Home />} />
     </Routes>
+    </>
   );
 }
 export default App;
